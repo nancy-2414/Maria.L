@@ -28,6 +28,14 @@ console.log(a<=b)
 console.log(a===b)
 
 
+console.log("logical operator")
+console.log(a>0 && b>0)
+console.log(a>0 && b<0)
+console.log(a<0 || b<0)
+console.log(!(a>0))
+
+
+
 
 
 
