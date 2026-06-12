@@ -35,6 +35,22 @@ console.log(a<0 || b<0)
 console.log(!(a>0))
 
 
+console.log("unary operator")
+console.log(c++)
+console.log(c--)
+console.log(--c)
+console.log(++c)
+ 
+
+console.log("ternary operator")
+var result=(a>b) ? "a is greater" : "b is graeter"
+//var variablename = (condition) ? truevalue : falsevalue
+console.log(result)
+
+
+
+
+
 
 
 
