@@ -1,4 +1,4 @@
-//if elseif
+/*if elseif
 var light = "white"
 if(light == "green") {
       console.log("go");
@@ -14,7 +14,7 @@ elseif(light == "red")
 else {
       console.log("invalid light color");    
 }
-console.log("outside if");
+console.log("outside if");*/
 
 
 //switch case
