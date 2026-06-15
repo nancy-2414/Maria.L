@@ -1,15 +1,15 @@
 //primitive datatypes
 console.log("numbers");
-var a = 18
-console.log(a);
+var age = 18
+console.log(age);
 
 console.log("string");
 var name = "NancyMaria"
 console.log(name);
 
 console.log("boolean");
-var isstudent = true
-console.log(isstudent);
+var student = true
+console.log(student);
 
 console.log("null");
 var novalue = null
@@ -18,6 +18,16 @@ console.log(novalue);
 console.log("undefined");
 var undefinedvalue
 console.log(undefinedvalue);
+
+//BigInt
+ console.log("data types bigInt");
+ var big = 133324455678n;
+ console.log(big);
+
+//symbols
+ console.log("data types symbols");
+ var symbolsvalue = Symbol('symbols');
+ console.log(symbolsvalue);
 
 //non-primitive datatypes
 console.log("array");
@@ -28,6 +38,7 @@ console.log("objects");
 var person =
 {
       name: "agnes",
-      age: 24
+      age: 24,
+      gender: "female"
 };
 console.log(person);
