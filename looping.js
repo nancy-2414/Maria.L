@@ -22,6 +22,3 @@ do{
     count++;
 }
 while(count<=10)
-
-
-
