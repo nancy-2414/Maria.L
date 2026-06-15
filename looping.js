@@ -7,8 +7,21 @@ for(let i=1;i<=10;i++)
 
 
 //while loop
-while(let i=1;1<=10;1++)
+let i=1
+while(i<=10)
 {
-      console.log(i +" x 2 = i*3 ");
-      
+      console.log(i +" x 3 =" + i*3 );
+      i++;
 }
+
+
+//do while loop
+let count=1;
+do{
+    console.log(count);
+    count++;
+}
+while(count<=10)
+
+
+
