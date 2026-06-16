@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+<script>
+            const studentpromise = 
+
+            new Promise(function(resolve,reject) {
+
+            console.log("Inside promise");
+
+            let success = false;
+
+            setTimeout(function(){
+            console.log("Inside setTimeout");
+
+            if(success){
+            console.log("Inside Success");
+            resolve("Student loaded Successfully");}
+            
+            else{
+            console.log("Inside Error");
+            reject("Failed to lead student");
+            }
+      }, 3000);
+            });
+studentpromise
+
+.then(function(result){
+      console.log("Inside then");
+      console.log(result);
+            
+})
+.catch(function(error){
+      console.log("Inside catch");
+      console.log(error);  
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+<script>
+function getstudent(){
+       
+      return new Promise(function(resolve){
+            console.log("promise is pending...");
+            
+            setTimeout(function(){
+                 resolve("nancy");
+            },3000);
+      });
+}
+
+async function displaystudent()
+{
+      console.log("Loading Student...");
+      let student = await getstudent();
+      console.log(student);
+      
+}
+displaystudent();
+      </script>
+</body>
+</html>
